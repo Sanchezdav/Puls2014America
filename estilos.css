@@ -200,7 +200,7 @@ nav ul #publicar_nav a
 	box-shadow: rgba(0,0,0,0.6) 5px 5px 20px;
 	font-style: italic;
 	padding: 0.8em 0.7em;
-	text-shadow: rgba(0,0,0,0.6) 2px 2px 5px;;
+	text-shadow: rgba(0,0,0,0.6) 2px 2px 5px;
 }
 
 nav ul #publicar_nav a:hover
@@ -347,4 +347,29 @@ nav ul #publicar_nav a:hover
 	{
 		width: 100%;
 	}
+}
+
+/* -----------------------Formulario --------------------------*/
+.formulario
+{
+	display: none;
+	padding: 1em;
+	text-align: right;
+}
+
+.formulario input
+{
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 0.2em 0.6em;
+}
+
+.formulario input[type="submit"]
+{
+	background: #22BCE0;
+	border-color: #22BCE0;
+	box-shadow: rgba(0,0,0,0.6) 5px 5px 20px;
+	color: white;
+	font-style: italic;
+	text-shadow: rgba(0,0,0,0.6) 2px 2px 5px;
 }
